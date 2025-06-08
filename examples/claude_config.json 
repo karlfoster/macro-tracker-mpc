@@ -2,10 +2,10 @@
   "globalShortcut": "Ctrl+Space",
   "mcpServers": {
     "macro": {
-      "command": "/Users/[USERNAME]/.local/bin/uv",
+      "command": "/path/to/your/uv",
       "args": [
         "--directory",
-        "[FULL PATH]/macro-tracker-mpc",
+        "/absolute/path/to/macro-tracker-mcp",
         "run",
         "main.py"
       ]

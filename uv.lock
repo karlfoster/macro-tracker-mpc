@@ -114,15 +114,11 @@ name = "macro-mpc"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "httpx" },
     { name = "mcp", extra = ["cli"] },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "mcp", extras = ["cli"], specifier = ">=1.9.3" },
-]
+requires-dist = [{ name = "mcp", extras = ["cli"], specifier = ">=1.9.3" }]
 
 [[package]]
 name = "markdown-it-py"
