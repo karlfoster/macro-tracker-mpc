@@ -1,0 +1,14 @@
+{
+  "globalShortcut": "Ctrl+Space",
+  "mcpServers": {
+    "macro": {
+      "command": "/Users/[USERNAME]/.local/bin/uv",
+      "args": [
+        "--directory",
+        "[FULL PATH]/macro-tracker-mpc",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
